@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node12/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "types": ["node"],
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "declaration": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
